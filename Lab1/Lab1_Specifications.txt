@@ -1,0 +1,53 @@
+COP4338
+Caryl Rahn
+
+Lab 1
+
+Write a C program for a grade calculation to run on ocelot.
+
+The source file should have your name & PantherID included in it and it should have an affirmation of 
+originality stating something like: “I affirm that I wrote this program myself without any help form any 
+other people or sources from the internet.”.
+
+Code should be nicely indented using a consistent style and commented appropriately.
+
+An array should be used for each student, but it is not required as long as all values are in variables.
+
+	• Course is an array of characters.
+	• Credits is an integer.
+	• Grade is a floating point number.
+	• Grade Points earned should be calculated as you print not stored in a variable.
+	
+There should be at least 6 courses listed.
+
+There is no user input, all values should be hard coded in the program
+
+Columns should be aligned as shown in the sample below.
+
+	• Course column left justified.
+	• Credits centered
+	• Grade right justified
+	• Grade Points Earned right justified
+
+The grade points earned should be calculated in a formula with multiplication right while printing it out. 
+It should not be stored as a variable.
+
+Create a simple Makefile to compile your program into an executable called gpa.
+
+You should submit the source code and your Makefile file compressed into a zip file named 
+FirstNameLastNameL1.zip. The Makefile should be called Makefile with no extension. I should be able to 
+type make at the command line to compile your program. Do not include any other files or folders in the 
+zipfile. This applies even if you are a Mac user.
+
+Programs that do not compile and do something useful when run will not earn any credit at all.
+
+Sample Output:
+
+Student Name: YourFirstName YourLastName
+Panther ID:
+Course		Credits		Grade		Grade Points Earned
+COP2210		   3		 4.00					  12.00
+ENC1101		   3		 2.67					   8.01
+CGS3095		   3		 3.00					   9.00
+Total		   9								  29.01
+Current GPA: 3.22
