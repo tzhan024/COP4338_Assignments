@@ -49,6 +49,6 @@
 │      Makefile
 │
 └─Lab7
-       Lab7_Specifications.txt
-       Makefile
-       tenthreads.c
+        Lab7_Specifications.txt
+        Makefile
+        tenthreads.c
